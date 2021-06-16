@@ -1,0 +1,32 @@
+Header
+	- Logo
+	- Nav
+		- FAQ
+		- About
+	- Headline
+	- Image
+Content Area
+	- Newsletter signup
+		- Headline text
+		- Paragraph text
+		- Headline text
+		- Email field
+		- Submit button
+	- General information
+		- Headline text
+		- Background image
+		- Icons
+		- Text
+	- Previous retreats
+		- Headline text
+		- Image
+		- Subheadline text
+		- Paragraph text
+Footer
+	- Contact
+		- Headline text
+		- Contact info
+	- Social Media
+		- Headline text
+		- Social icons
+	- Copyright
