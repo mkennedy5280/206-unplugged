@@ -94,6 +94,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 h1 {
@@ -129,6 +130,7 @@ header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row-wrap;
 
 }
 
@@ -145,12 +147,12 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row-wrap;
 }
 
 header nav ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
 }
 
 header nav a {
@@ -161,9 +163,7 @@ header nav a {
 /* ---------- Footer ---------- */
 
 footer .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 
@@ -185,7 +185,7 @@ footer .social {
 
 footer .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -201,11 +201,12 @@ footer .copyright {
 
 /* ---------- Home - Main ---------- */
 
+
 /* ----- Hero ----- */
 .hero-area {  
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -217,6 +218,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 aside .content-wrapper { 
@@ -239,7 +241,7 @@ input {
 .features  { 
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
 .features .content-wrapper {
@@ -250,6 +252,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 article .fontawesome-icon {
@@ -264,6 +267,7 @@ article .features-item-description {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .reviews .content-wrapper {
@@ -281,6 +285,7 @@ article .review-1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .mission .content-wrapper {
@@ -307,6 +312,7 @@ article .review-1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 
 }
 /* ---------- FAQ - Main ---------- */
@@ -315,6 +321,7 @@ article .review-1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -322,6 +329,7 @@ article .review-1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 
 }
 
