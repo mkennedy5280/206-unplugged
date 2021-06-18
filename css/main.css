@@ -91,7 +91,9 @@ textarea {
 
 header, 
 footer {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -123,12 +125,10 @@ span {
 
 /* ---------- Header ---------- */
 
-
-header {
-
-}
-
 header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -142,11 +142,15 @@ header .header-divider {
 
 
 header nav {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav ul {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav a {
@@ -156,12 +160,10 @@ header nav a {
 
 /* ---------- Footer ---------- */
 
-footer {
-
-}
-
 footer .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -182,6 +184,15 @@ footer .social {
 }
 
 footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social p {
+   display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -190,20 +201,25 @@ footer .copyright {
 
 /* ---------- Home - Main ---------- */
 
-main {
-
-}
-
 /* ----- Hero ----- */
-main .hero-area {
+.hero-area {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
-main .content-wrapper {
+.content-wrapper {
 
 }
 /* ----- Newsletter Signup ----- */
-aside .content-wrapper {
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside .content-wrapper { 
 
 }
 
@@ -220,16 +236,20 @@ input {
 }
 
 /* ----- Features ----- */
-main .features {
+.features  { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features .content-wrapper {
 
 }
 
-main .content-wrapper {
-
-}
-
-main .feature-items {
-
+.features .feature-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 article .fontawesome-icon {
@@ -240,11 +260,13 @@ article .features-item-description {
 
 }
 /* ----- Reviews ----- */
-main .reviews {
-
+.reviews  { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-main .content-wrapper {
+.reviews .content-wrapper {
 
 }
 
@@ -255,16 +277,58 @@ article .review-1 {
 /* ---------- About - Main ---------- */
 
 /* ----- Mission ----- */
+.mission  { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.mission .content-wrapper {
+
+}
+
+.mission-content {
+
+}
 /* ----- Map ----- */
+.map {
 
+}
 /* ----- Contact Info ----- */
+.content-section {
 
+}
+
+.content-section .content-wrapper {
+
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 /* ---------- FAQ - Main ---------- */
 
-/* ----- FAQ ----- */
+.faq {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
 
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.faq-content {
+
+}
+/* ---------- Responsive ---------- */
 
 /* ==========================================================================
    Helper classes
