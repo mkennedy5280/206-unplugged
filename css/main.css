@@ -87,6 +87,185 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ---------- Base Styles ---------- */
+
+header, 
+footer {
+
+}
+
+h1 {
+
+}
+
+
+h2 {
+
+}
+
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+
+p {
+
+}
+
+span {
+
+}
+
+/* ---------- Header ---------- */
+
+
+header {
+
+}
+
+header .content-wrapper {
+
+}
+
+header img {
+
+}
+
+header .header-divider {
+
+}
+
+
+header nav {
+
+}
+
+header nav ul {
+
+}
+
+header nav a {
+
+}
+
+
+/* ---------- Footer ---------- */
+
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+
+footer .footer-content {
+
+}
+
+footer .contact {
+
+}
+
+address {
+
+}
+
+footer .social {
+
+}
+
+footer .social-icons {
+
+}
+
+footer .copyright {
+}
+
+/* ---------- Home - Main ---------- */
+
+main {
+
+}
+
+/* ----- Hero ----- */
+main .hero-area {
+
+}
+
+main .content-wrapper {
+
+}
+/* ----- Newsletter Signup ----- */
+aside .content-wrapper {
+
+}
+
+aside .form-description {
+
+}
+
+aside .form {
+
+}
+
+input {
+
+}
+
+/* ----- Features ----- */
+main .features {
+
+}
+
+main .content-wrapper {
+
+}
+
+main .feature-items {
+
+}
+
+article .fontawesome-icon {
+
+}
+
+article .features-item-description {
+
+}
+/* ----- Reviews ----- */
+main .reviews {
+
+}
+
+main .content-wrapper {
+
+}
+
+article .review-1 {
+
+}
+
+/* ---------- About - Main ---------- */
+
+/* ----- Mission ----- */
+
+/* ----- Map ----- */
+
+/* ----- Contact Info ----- */
+
+/* ---------- FAQ - Main ---------- */
+
+/* ----- FAQ ----- */
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
