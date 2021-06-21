@@ -87,7 +87,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+
 /* ---------- Base Styles ---------- */
+
+.content-wrapper {
+  width: 90%;
+}
 
 header, 
 footer {
@@ -126,20 +132,19 @@ span {
 
 /* ---------- Header ---------- */
 
+header {
+
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row-wrap;
-
+  flex-flow: row wrap;
 }
 
-header img {
-
-}
-
-header .header-divider {
-
+.header-divider {
+width: 100%;
 }
 
 
@@ -148,11 +153,13 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row-wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
 header nav a {
@@ -163,7 +170,7 @@ header nav a {
 /* ---------- Footer ---------- */
 
 footer .content-wrapper {
-
+  width: 55%;
 }
 
 
@@ -255,7 +262,12 @@ input {
   flex-flow: row wrap;
 }
 
+.features article {
+  width: 63%;
+}
+
 article .fontawesome-icon {
+
 
 }
 
@@ -272,6 +284,10 @@ article .features-item-description {
 
 .reviews .content-wrapper {
 
+}
+
+.reviews h3 {
+  width: 55%;
 }
 
 article .review-1 {
