@@ -104,33 +104,6 @@ footer {
   flex-flow: row wrap;
 }
 
-h1 {
-
-}
-
-
-h2 {
-
-}
-
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-
-p {
-
-}
-
-span {
-
-}
-
 /* ---------- Header ---------- */
 
 header {
@@ -166,10 +139,6 @@ header nav ul {
   width: 100%;
 }
 
-header nav a {
-
-}
-
 
 /* ---------- Footer ---------- */
 
@@ -182,21 +151,8 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
-
-footer .footer-content {
-
-}
-
 footer .contact {
   margin-bottom: 50px;
-}
-
-address {
-
-}
-
-footer .social {
-
 }
 
 footer .social-icons {
@@ -221,7 +177,7 @@ footer p {
 }
 
 
-/* ---------- Home - Main ---------- */
+/* ---------- Mobile Styles - Homepage ---------- */
 
 
 /* ----- Hero ----- */
@@ -232,9 +188,6 @@ footer p {
 
 }
 
-.content-wrapper {
-
-}
 /* ----- Newsletter Signup ----- */
 aside {
   display: flex;
@@ -243,26 +196,26 @@ aside {
   flex-flow: row wrap;
 }
 
-aside .content-wrapper { 
-
-}
-
-aside .form-description {
-
-}
-
-aside .form {
-
-}
-
-input {
-
-}
-
 /* ----- Features ----- */
-.features  { 
+.features {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
+}
+
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -270,106 +223,65 @@ input {
   margin: 0;
 }
 
-.features .content-wrapper {
-
-}
-
-.features .feature-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.features article {
-  width: 63%;
-}
-
-article .fontawesome-icon {
-
-
-}
-
-article .features-item-description {
-
 }
 /* ----- Reviews ----- */
-.reviews  { 
+.reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
-.reviews .content-wrapper {
-
+.reviews h2 {
+  margin-bottom: 40px;
 }
 
 .reviews h3 {
   width: 55%;
+  margin: 20px 0;
 }
 
-article .review-1 {
+/* ---------- Mobile Styles - About page ---------- */
 
-}
-
-/* ---------- About - Main ---------- */
-
-/* ----- Mission ----- */
-.mission  { 
+.mission {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.mission .content-wrapper {
-
-}
-
-.mission-content {
-
-}
-/* ----- Map ----- */
-.map {
-
-}
-/* ----- Contact Info ----- */
-.content-section {
-
-}
-
-.content-section .content-wrapper {
-
-}
-
-.contact-content {
+.contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
 }
-/* ---------- FAQ - Main ---------- */
 
-.faq {  
+.contact-content p {
+  margin: 0;
+}
+/* ---------- Mobile Styles - FAQ page ---------- */
+
+.faq {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
 }
 
 .faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
 
+.faq h2 {
+  margin-bottom: 40px;
 }
 
 .faq-content {
-
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
