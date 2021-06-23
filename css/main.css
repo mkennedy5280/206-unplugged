@@ -173,6 +173,10 @@ header nav a {
 
 /* ---------- Footer ---------- */
 
+footer {
+  flex-direction: column;
+}
+
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
@@ -184,7 +188,7 @@ footer .footer-content {
 }
 
 footer .contact {
-
+  margin-bottom: 50px;
 }
 
 address {
@@ -209,6 +213,7 @@ footer .social p {
 }
 
 footer .copyright {
+    margin: 20px 0;
 }
 
 footer p {
