@@ -156,7 +156,7 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
   width: 60%;
 }
 
@@ -457,6 +457,28 @@ article .review-1 {
 
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
+
+.content-wrapper {
+  width: 640px;
+  margin: 100px 0;
+}
+/* ---------- Header ---------- */
+.header-divider {
+    display: none;
+  }
+
+header nav {
+    width: 80%;
+  }
+
+header nav ul {
+  justify-content: flex-end;
+  }
+
+header li { 
+  padding: 0 25px; 
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
