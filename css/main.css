@@ -375,47 +375,78 @@ aside {
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
 
-.content-wrapper {
-  width: 640px;
-  margin: 100px 0;
-}
+  .content-wrapper {
+    width: 640px;
+    margin: 100px 0;
+  }
 /* ---------- Header ---------- */
-.header-divider {
-    display: none;
+  .header-divider {
+      display: none;
   }
 
-header nav {
-    width: 80%;
+  header nav {
+      width: 80%;
   }
 
-header nav ul {
-  justify-content: flex-end;
+  header nav ul {
+    justify-content: flex-end;
   }
 
-header li { 
-  padding: 0 25px; 
+  header li { 
+    padding: 0 25px; 
   }
 
 /* ----- Newsletter Signup ----- */
-aside .content-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
+  aside .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
   
-aside .content-wrapper .form-description,
-aside .content-wrapper .form {
-  width: 40%;
-  margin: 0;
-}
-
- .features article {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: column wrap;
-      flex-basis: 50%;
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 40%;
+    margin: 0;
+  }
+/* ----- Features ----- */
+  .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+  }
+  .features .features-item-description {
+    width: 50%;
+  }  
+/* ----- Reviews ----- */
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .reviews article div {
+      width: 49%;
+  }
+  
+/* Footer */
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
     }
-    
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+  
+  footer .contact {
+    margin-bottom: 0;
+  }
+  
+  footer .copyright {
+    width: 100%;
+  }
 
 }
 
